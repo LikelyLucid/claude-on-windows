@@ -1,0 +1,16 @@
+[project]
+name = "claude-on-windows"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.37.1",
+    "boto3>=1.35.46",
+    "google-auth>=2.35.0",
+    "jsonschema>=4.23.0",
+    "pillow>=10.4.0",
+    "pyautogui>=0.9.54",
+    "python-dotenv>=1.0.1",
+    "streamlit>=1.39.0",
+]
