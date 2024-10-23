@@ -9,7 +9,7 @@ dependencies = [
     "boto3>=1.35.46",
     "google-auth>=2.35.0",
     "jsonschema>=4.23.0",
-    "numpy>=2.1.2",
+    "numpy<2",
     "pillow>=10.4.0",
     "pyautogui>=0.9.54",
     "python-dotenv>=1.0.1",
